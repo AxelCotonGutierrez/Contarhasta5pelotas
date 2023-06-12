@@ -1,11 +1,11 @@
 // Axel Cotón Gutiérrez Copyright 2023
       // Generar imágenes aleatorias
   const images = [
-    "https://drive.google.com/uc?export=view&id=18njnAbr2A2Tj7RJP1OAkII2gJYYMzPfl",
-    "https://drive.google.com/uc?export=view&id=18njnAbr2A2Tj7RJP1OAkII2gJYYMzPfl",
-    "https://drive.google.com/uc?export=view&id=18njnAbr2A2Tj7RJP1OAkII2gJYYMzPfl",
-"https://drive.google.com/uc?export=view&id=18njnAbr2A2Tj7RJP1OAkII2gJYYMzPfl",
-"https://drive.google.com/uc?export=view&id=18njnAbr2A2Tj7RJP1OAkII2gJYYMzPfl"
+    "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
+    "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
+    "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
+"https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
+"https://github.com/AxelCotonGutierrez/Contarhasta5pelotas/blob/master/img/pelota.png?raw=true"
   ];
 
   let score = 0; // Contador de respuestas correctas
