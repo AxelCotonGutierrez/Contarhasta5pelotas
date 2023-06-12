@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito';
+}
+
+body {
+  max-height: 80%;
+  text-align: center;
+  color: #0c4fe1;
+}
+
+h1 {
+  color: rgb(10, 10, 10);
+  padding: 50px;
+  font-size: 40px;
+}
+
+.container {
+  background-color: #ddff62;
+  max-width: 95%;
+  margin: auto;
+  border: 3px solid #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Evitar desbordamiento horizontal en dispositivos móviles */
+}
+
+.container2 {
+  background-color: #f0f3e9;
+  max-width: 95%;
+  margin: auto;
+  border: 3px solid #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Evitar desbordamiento horizontal en dispositivos móviles */
+}
+
+.textosuperior {
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.msj {
+  font-size: 30px;
+  height: 30px;
+}
+
+#buttons-container {
+  margin-top: 10px;
+}
+
+.guess-button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  font-size: 50px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#play-again-button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#play-again-button:hover {
+  background-color: #3367d6;
+}
+
+.game-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 200px;
+}
+
+#score {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Nuevo código para redimensionar imágenes en dispositivos móviles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%; /* Ancho completo en dispositivos móviles */
+  }
+
+  container img {
+    width: calc(30% - 10px); /* Ajusta el valor según tus necesidades */
+  }
+}
