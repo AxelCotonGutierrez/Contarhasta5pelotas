@@ -113,23 +113,30 @@ h1 {
 }
 
 /* Nuevo código para redimensionar imágenes en dispositivos móviles */
-.container {
+#container2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.container img {
+#container2 img {
   margin: 5px;
 }
 
 @media (max-width: 768px) {
-  .container {
+  #container2 {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
   }
 
-  container img {
-    width: calc(30% - 10px); /* Ajusta el valor según tus necesidades */
+  #container2 img {
+    width: calc(50% - 10px); /* Ajusta el valor según tus necesidades */
+  }
+
+  .guess-button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 10px;
   }
 }
