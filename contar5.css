@@ -104,7 +104,7 @@ h1 {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
   }
 
-  .game-image {
+  .container .game-image {
     max-width: 20%; /* Ajustar según necesidades */
     height: auto;
     object-fit: contain;
