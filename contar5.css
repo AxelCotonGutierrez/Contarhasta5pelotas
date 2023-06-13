@@ -98,19 +98,16 @@ h1 {
 }
 
 /* Visión en dispositivos móviles */
-
 @media (max-width: 768px) {
   .container {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
     flex-wrap: wrap; /* Permitir envolver las imágenes en múltiples líneas */
   }
 
-  .container .game-image {
-    max-width: 30%; /* Ajustar según necesidades */
-    height: auto;
-    object-fit: contain;
-    max-height: 50px;
-    flex: 0 0 20%; /* Establecer el ancho fijo para cada imagen */
+  .game-image {
+    flex-basis: 20%; /* Ajustar según necesidades */
+    max-width: 20%; /* Ajustar según necesidades */
+    margin: 1%; /* Espacio entre las imágenes */
   }
 
   .guess-button {
