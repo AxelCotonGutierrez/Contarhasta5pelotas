@@ -33,21 +33,6 @@ h1 {
   overflow: hidden; /* Evitar desbordamiento horizontal en dispositivos móviles */
 }
 
-.container2 {
-  background-color: #f0f3e9;
-  max-width: 95%;
-  margin: auto;
-  border: 3px solid #000;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding: 50px 0;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; /* Evitar desbordamiento horizontal en dispositivos móviles */
-}
-
 .textosuperior {
   font-size: 30px;
   justify-content: center;
@@ -113,25 +98,18 @@ h1 {
 }
 
 /* Nuevo código para redimensionar imágenes en dispositivos móviles */
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.container2 img {
+.container img {
   margin: 5px;
   max-width: 100%;
   height: auto;
 }
 
 @media (max-width: 768px) {
-  .container2 {
+  .container {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
   }
 
-  .container2 img {
+  .container img {
     width: calc(50% - 10px); /* Ajusta el valor según tus necesidades */
   }
 
