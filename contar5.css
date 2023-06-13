@@ -102,6 +102,7 @@ h1 {
 @media (max-width: 768px) {
   .container {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
+    flex-wrap: wrap; /* Permitir envolver las imágenes en múltiples líneas */
   }
 
   .container .game-image {
@@ -109,6 +110,7 @@ h1 {
     height: auto;
     object-fit: contain;
     max-height: 50px;
+    flex: 0 0 20%; /* Establecer el ancho fijo para cada imagen */
   }
 
   .guess-button {
