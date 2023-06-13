@@ -113,23 +113,25 @@ h1 {
 }
 
 /* Nuevo código para redimensionar imágenes en dispositivos móviles */
-#container2 {
+.container2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-#container2 img {
+.container2 img {
   margin: 5px;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
-  #container2 {
+  .container2 {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
   }
 
-  #container2 img {
+  .container2 img {
     width: calc(50% - 10px); /* Ajusta el valor según tus necesidades */
   }
 
