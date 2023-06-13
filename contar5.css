@@ -106,7 +106,7 @@ h1 {
   }
 
   .container .game-image {
-    max-width: 20%; /* Ajustar según necesidades */
+    max-width: 30%; /* Ajustar según necesidades */
     height: auto;
     object-fit: contain;
     max-height: 50px;
