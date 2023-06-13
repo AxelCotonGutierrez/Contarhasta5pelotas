@@ -5,7 +5,7 @@
     "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
     "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
 "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
-"https://github.com/AxelCotonGutierrez/Contarhasta5pelotas/blob/master/img/pelota.png?raw=true"
+"https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ"
   ];
 
   let score = 0; // Contador de respuestas correctas
