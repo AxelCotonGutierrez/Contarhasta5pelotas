@@ -97,19 +97,14 @@ h1 {
   font-weight: bold;
 }
 
-/* Nuevo código para redimensionar imágenes en dispositivos móviles */
-.container img {
-  margin: 5px;
-  max-width: 100%;
-  height: auto;
-}
+
 
 @media (max-width: 768px) {
   .container {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
   }
 
-  .container img {
+  .game-image {
     width: calc(50% - 10px); /* Ajusta el valor según tus necesidades */
   }
 
