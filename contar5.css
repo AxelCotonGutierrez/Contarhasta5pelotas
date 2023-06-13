@@ -105,8 +105,8 @@ h1 {
   }
 
   .game-image {
-    flex-basis: 20%; /* Ajustar según necesidades */
-    max-width: 20%; /* Ajustar según necesidades */
+    flex-basis: calc(100% / 5); /* Ajustar según el número máximo de imágenes (en este caso, 5) */
+    max-width: calc(100% / 5); /* Ajustar según el número máximo de imágenes (en este caso, 5) */
     margin: 1%; /* Espacio entre las imágenes */
   }
 
