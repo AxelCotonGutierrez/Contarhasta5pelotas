@@ -33,6 +33,21 @@ h1 {
   overflow: hidden; /* Evitar desbordamiento horizontal en dispositivos móviles */
 }
 
+.container2 {
+  background-color: #f0f3e9;
+  max-width: 95%;
+  margin: auto;
+  border: 3px solid #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Evitar desbordamiento horizontal en dispositivos móviles */
+}
+
 .textosuperior {
   font-size: 30px;
   justify-content: center;
