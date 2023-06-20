@@ -104,10 +104,15 @@ h1 {
     flex-wrap: wrap; /* Permitir envolver las imágenes en múltiples líneas */
   }
 
-  .game-image {
+  .container .game-image {
     flex-basis: calc(100% / 5); /* Ajustar según el número máximo de imágenes (en este caso, 5) */
     max-width: calc(100% / 5); /* Ajustar según el número máximo de imágenes (en este caso, 5) */
     margin: 1%; /* Espacio entre las imágenes */
+  }
+
+  .container .game-image:first-child:last-child {
+    flex-basis: 100%; /* Ajustar el tamaño de la única imagen */
+    max-width: 100%; /* Ajustar el tamaño de la única imagen */
   }
 
   .guess-button {
