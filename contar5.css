@@ -105,12 +105,12 @@ h1 {
   }
 
   .container .game-image {
-    flex-basis: calc(100% / 5); /* Ajustar según el número máximo de imágenes (en este caso, 5) */
-    max-width: calc(100% / 5); /* Ajustar según el número máximo de imágenes (en este caso, 5) */
+    flex-basis: 20%; /* Ajustar según las necesidades */
+    max-width: 20%; /* Ajustar según las necesidades */
     margin: 1%; /* Espacio entre las imágenes */
   }
 
-  .container .game-image:first-child:last-child {
+  .container .game-image:nth-child(1):only-child {
     flex-basis: 100%; /* Ajustar el tamaño de la única imagen */
     max-width: 100%; /* Ajustar el tamaño de la única imagen */
   }
