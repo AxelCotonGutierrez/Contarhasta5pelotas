@@ -110,9 +110,9 @@ h1 {
     margin: 1%; /* Espacio entre las imágenes */
   }
 
-  .container .game-image:nth-last-child(n+2):first-child {
-    flex-basis: calc(100% / 2 - 1%); /* Ajustar el tamaño de la primera imagen cuando hay más de una */
-    max-width: calc(100% / 2 - 1%); /* Ajustar el tamaño de la primera imagen cuando hay más de una */
+  .container .game-image:nth-child(1):only-child {
+    flex-basis: 33%; /* Ajustar el tamaño de la única imagen */
+    max-width: 33%; /* Ajustar el tamaño de la única imagen */
   }
 
   .guess-button {
