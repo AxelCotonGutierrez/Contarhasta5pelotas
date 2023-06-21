@@ -1,4 +1,7 @@
-# Contarhasta5pelotas
+# Contar hasta cinco usando pelotas.
+
+![Juego de las pelotas](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/Contar5/jcontar5.jpg)
+
 Juego para Infantil para aprender a contar hasta cinco pelotas.
 
 Puedes probar el juego en esta url:
