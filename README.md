@@ -2,6 +2,8 @@
 
 ![Juego de las pelotas](https://axelcotongutierrez.github.io/learningmathematicas/assets/images//posts/Contar5/jcontar5.jpg)
 
+Dentro del blog: https://axelcotongutierrez.github.io/learningmathematicas/
+
 Juego para Infantil para aprender a contar hasta cinco pelotas.
 
 Puedes probar el juego en esta url:
