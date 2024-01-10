@@ -5,24 +5,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>JUEGO DE LAS PELOTAS</title>
 	<link rel="stylesheet" href="contar5.css">
+	<link rel="stylesheet" href="nav.css">
 	<link rel="icon" href="icon.png" type="image/png">
 </head>
 <body>
-	<header><a href="https://axelcotongutierrez.github.io/learningmathematicas/">
-		<img src="https://axelcotongutierrez.github.io/learningmathematicas/assets/images//top.jpg" alt="Blog Mathematica" style="display: block; margin: 0 auto; width: 100%; height: auto;">
-	  </a></header>
-	  <h1 style="text-align: center;">JUEGO DE LAS PELOTAS</h1>
+	<header>
+		<div class="menu">
+			<button class="menu-toggle">☰</button>
+			<ul><li><a href="https://axelcotongutierrez.github.io/learningmathematicas/">
+				<img src="cb.jpg"> 
+			</a></li>
+				<li><a href="/learningmathematicas/projects/Cursos/">Cursos y Materias</a></li>
+				<li><a href="/learningmathematicas/projects/Niveles/">Niveles</a></li>
+				<li><a href="/learningmathematicas/">Entradas</a></li>
+				<li><a href="/learningmathematicas/tags">Etiquetas</a></li>
+				<li><a href="/learningmathematicas/about">Blog</a></li>
+				<li><a href="#">Utilidades</a>
+					<ul>
+						<li><a href="/learningmathematicas/projects/Utilidades/Glosario.html">Glosario</a></li>
+						<li><a href="/learningmathematicas/projects/Utilidades/Programacion.html">Programación</a></li>
+						<li><a href="/learningmathematicas/projects/Utilidades/Soroban.html">Soroban</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<a href="https://axelcotongutierrez.github.io/learningmathematicas/">
+			<img src="https://axelcotongutierrez.github.io/learningmathematicas/assets/images//top.jpg" alt="Blog Mathematica" style="display: block; margin: 0 auto; width: 100%; height: auto;">
+		  </a>
+		  <h1 style="text-align: center;">JUEGO DE LAS PELOTAS</h1>
+		</header>
+		  
+		  <br>
+		  <p class="textosuperior" style="text-align: center;">Este contenido se vincula con el 
+			<b><a href="https://axelcotongutierrez.github.io/learningmathematicas/projects/Niveles/#level-2-detail" target="_blank">Nivel 2</a></b>
+			 de la materia <a title="Matemáticas" href="https://axelcotongutierrez.github.io/learningmathematicas/tags/?tag=matemáticas" target="_blank"><img class="center-block img-responsive" width="30" alt="Matemáticas" src="/learningmathematicas/assets/images/pages/figuras/Matematicas.png"></a>
+			 y es pertinente al curso <a title="Infantil" href="https://axelcotongutierrez.github.io/learningmathematicas/tags/?tag=infantil" target="_blank"><img class="center-block img-responsive" style="display: inline-block;" width="30" alt="Infantil" src="/learningmathematicas/assets/images/pages/figuras/infantil.png"></a>
+			</p>
+		  <br>
 	  
-	  <p class="textosuperior" style="text-align: center;">Este contenido se vincula con el 
-		<b><a href="https://axelcotongutierrez.github.io/learningmathematicas/projects/Niveles/#level-2-detail" target="_blank">Nivel 2</a></b>
-		 de la materia <a title="Matemáticas" href="https://axelcotongutierrez.github.io/learningmathematicas/tags/?tag=matemáticas" target="_blank"><img class="center-block img-responsive" width="40" alt="Matemáticas" src="/learningmathematicas/assets/images/pages/figuras/Matematicas.png"></a>
-		 y es pertinente al curso <a title="Infantil" href="https://axelcotongutierrez.github.io/learningmathematicas/tags/?tag=infantil" target="_blank"><img class="center-block img-responsive" style="display: inline-block;" width="40" alt="Infantil" src="/learningmathematicas/assets/images/pages/figuras/infantil.png"></a>
-		</p>
-	  <br>
 	  
 	
 	<div class="container2">
-	<span class="textosuperior">¿Eres capaz de contar cuántas pelotas hay 5 veces sin equivocarte?</span>
+	<span class="pregunta">¿Eres capaz de contar cuántas pelotas hay 5 veces sin equivocarte?</span>
 	<button id="play-again-button" style="display: none;">Volver a jugar</button>
 	</div>
 	<div class="container">
@@ -51,6 +75,12 @@
 	<script src="contar5.js"></script>
 	<!-- Llamamos a Java"-->
 	<br>
+	<footer class="footer">
+		<ul class="footer-links">
+			<li><a href="http://github.com/AxelCotonGutierrez"> <img src="githubinverseicon.jpg"></a></li>
+			<li><a href="https://www.youtube.com/@learningmathematicas"> <img src="youtubeinverseicon.jpg"></i></a></li>
+		</ul>
+	</footer>
 </body>
-</div>
+
 </html>
