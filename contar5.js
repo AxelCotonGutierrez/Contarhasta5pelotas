@@ -1,4 +1,28 @@
 // Axel Cotón Gutiérrez Copyright 2023
+
+// Cargar archivos de audio desde la carpeta adecuada
+const preguntaAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/audio/Pregunta.mp3');
+const correctoAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/audio/Correcto.mp3');
+const incorrectoAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/audio/Incorrecto.mp3');
+const felicidadesAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/audio/Felicidades.mp3');
+const intentarAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/audio/Intentar.mp3');
+
+// Acceder al botón de silencio y al icono del megáfono en el DOM
+const soundControl = document.querySelector('#sound-control');
+const megaphoneIcon = document.querySelector('#megaphone-icon');
+
+// Función para reproducir audio si el sonido está activado
+function playAudio(audioElement) {
+  if (soundControl.checked) {
+    audioElement.play();
+  }
+}
+
+// Evento clic para el icono del megáfono para reproducir la pregunta en audio
+megaphoneIcon.addEventListener('click', () => playAudio(preguntaAudio));
+
+
+
       // Generar imágenes aleatorias
   const images = [
     "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
@@ -32,11 +56,13 @@
       scoreElement.textContent = `\u00A1Fin!`;
 
       if (score === 5) {
-        scoreElement.textContent += ` \u00A1Felicidades, eres un/a campeón/a!`;
+        scoreElement.textContent += ` \u00A1Felicidades, lo has conseguido!`;
         scoreElement.style.color = "green";
+        playAudio(felicidadesAudio);
       } else {
         scoreElement.textContent += ` \u00A1Vuelve a intentarlo!`;
         scoreElement.style.color = "red";
+        playAudio(intentarAudio);
       }
 
       // Mostrar botón "Volver a jugar"
@@ -103,9 +129,11 @@
       score++;
       resultElement.textContent = "\u00A1Correcto!";
       resultElement.style.color = "green";
+      playAudio(correctoAudio);
     } else {
       resultElement.textContent = `Incorrecto, había ${numImages} imágenes.`;
       resultElement.style.color = "red";
+      playAudio(incorrectoAudio);
     }
 
     // Actualizar puntaje y generar la siguiente pregunta

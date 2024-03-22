@@ -4,11 +4,17 @@
 
 Dentro del blog: https://axelcotongutierrez.github.io/learningmathematicas/
 
+Vídeo Explicativo del código: https://youtu.be/SRH_XsvWb98?si=8oBNNTaQYVrqgSaj
+
 Juego para Infantil para aprender a contar hasta cinco pelotas.
 
 Puedes probar el juego en esta url:
 
 https://axelcotongutierrez.github.io/Contarhasta5pelotas/
+
+Para saber como jugar solo ver la sección correspondiente en nuestro Canal de Youtube:
+
+https://www.youtube
 
 En este divertido y educativo juego, pondrás a prueba tus habilidades de conteo mientras te sumerges en un fascinante mundo de pelotas. Tu misión es contar con precisión cuántas pelotas aparecen en cada escena y seleccionar el botón correspondiente para dar tu respuesta.
 
