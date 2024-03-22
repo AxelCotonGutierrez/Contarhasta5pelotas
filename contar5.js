@@ -22,7 +22,6 @@ function playAudio(audioElement) {
 megaphoneIcon.addEventListener('click', () => playAudio(preguntaAudio));
 
 
-
       // Generar imágenes aleatorias
   const images = [
     "https://raw.githubusercontent.com/AxelCotonGutierrez/Contarhasta5pelotas/master/img/pelota.png?token=GHSAT0AAAAAACDQ2OUHITXRSOA227HISRE6ZEHNFJQ",
