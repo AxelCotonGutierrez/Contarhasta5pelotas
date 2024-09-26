@@ -14,7 +14,7 @@ https://axelcotongutierrez.github.io/Contarhasta5pelotas/
 
 Para saber como jugar solo ver la sección correspondiente en nuestro Canal de Youtube:
 
-https://www.youtube
+https://www.youtube.com/watch?v=k5Klds_pr_A
 
 En este divertido y educativo juego, pondrás a prueba tus habilidades de conteo mientras te sumerges en un fascinante mundo de pelotas. Tu misión es contar con precisión cuántas pelotas aparecen en cada escena y seleccionar el botón correspondiente para dar tu respuesta.
 
