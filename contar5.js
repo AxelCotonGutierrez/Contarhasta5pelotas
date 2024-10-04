@@ -11,6 +11,9 @@ const intentarAudio = new Audio('https://raw.githubusercontent.com/AxelCotonGuti
 const soundControl = document.querySelector('#sound-control');
 const megaphoneIcon = document.querySelector('#megaphone-icon');
 
+// Variable de control para determinar si el juego ha terminado
+let gameOver = false;
+
 // Función para reproducir audio si el sonido está activado
 function playAudio(audioElement) {
   if (soundControl.checked) {
@@ -45,7 +48,25 @@ function resetGame() {
   resultElement.style.color = "initial";
 }
 
+// Función para deshabilitar los botones de respuesta
+function disableGuessButtons() {
+  const guessButtons = document.querySelectorAll(".guess-button");
+  guessButtons.forEach(button => {
+    button.disabled = true;
+  });
+}
+
+// Función para habilitar los botones de respuesta
+function enableGuessButtons() {
+  const guessButtons = document.querySelectorAll(".guess-button");
+  guessButtons.forEach(button => {
+    button.disabled = false;
+  });
+}
+
 function generateQuestion() {
+  if (gameOver) return; // Si el juego ha terminado, no generar más preguntas
+  
   resetGame(); // Restablecer resultados y mensajes del juego anterior
 
   // Verificar si se han realizado las 5 preguntas
@@ -69,6 +90,12 @@ function generateQuestion() {
     // Mostrar botón "Volver a jugar"
     const playAgainButton = document.querySelector("#play-again-button");
     playAgainButton.style.display = "block";
+
+    // Marcar el juego como terminado
+    gameOver = true;
+
+    // Deshabilitar los botones de respuesta
+    disableGuessButtons();
 
     return;
   }
@@ -120,6 +147,8 @@ function generateRandomNumImages() {
 }
 
 function handleGuess(event) {
+  if (gameOver) return; // Si el juego ha terminado, no manejar más respuestas
+
   const guess = parseInt(event.target.textContent);
   const resultElement = document.querySelector("#result");
   questionsCount++;
@@ -154,6 +183,12 @@ function restartGame() {
   const playAgainButton = document.querySelector("#play-again-button");
   playAgainButton.style.display = "none";
 
+  // Marcar el juego como no terminado
+  gameOver = false;
+
+  // Habilitar los botones de respuesta
+  enableGuessButtons();
+
   // Reiniciar el juego
   generateQuestion();
 }
@@ -167,4 +202,3 @@ generateQuestion();
 // Agregar evento clic al botón "Volver a jugar"
 const playAgainButton = document.querySelector("#play-again-button");
 playAgainButton.addEventListener("click", restartGame);
-
